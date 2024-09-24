@@ -1,0 +1,48 @@
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .removeBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .inputContainer {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 180px;
+  }
+  
+  button {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
