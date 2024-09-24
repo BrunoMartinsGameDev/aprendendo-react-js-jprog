@@ -46,9 +46,9 @@ function TodoApp() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={"container"}>
       <h1>Lista de Tarefas</h1>
-      <div className={styles.inputContainer}>
+      <div className={"inputContainer"}>
         <input
           type="text"
           value={task}
@@ -57,7 +57,7 @@ function TodoApp() {
         />
         <button onClick={addTask}>Adicionar</button>
       </div>
-      <ul className={styles.taskList}>
+      <ul className={"taskList"}>
         {tasks.map((task, index) => (
           <TodoItem
             key={index}
